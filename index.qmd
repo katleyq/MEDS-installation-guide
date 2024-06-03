@@ -1,0 +1,16 @@
+---
+title: "MEDS Computing Requirements & Software Installation Guide"
+author: 
+  - name: UCSB MEDS
+    url: https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds
+date-modified: last-modified
+format: 
+  html:
+    theme: meds-website-styles.scss
+    mainfont: Nunito
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    smooth-scroll: true
+---
+
