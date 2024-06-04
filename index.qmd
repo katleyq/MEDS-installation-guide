@@ -27,8 +27,8 @@ UNDER CONSTRUCTION
 - check which version of R we want students to have (i added most recent version number to step 1)
 - do we even want to suggest that incoming students can have a Linux machine?
 - update Windows 10 to 11 (or alternative)? link to windows 10 is broken below and I still need link to purchase Windows 11
-- get feedback on language around Mac recommendation
-- where do we want to move the slack resources link (step 11 in installation guide) to after website is decommissioned?
+- get feedback on language around Mac recommendation (I think we've talked about being clearer in this guide about the program having better support for Mac users)
+- where do we want to move the slack resources link (step 11 in installation guide) to (if anywhere) after MEDS website is decommissioned?
 :::
 
 Incoming MEDS students should follow the steps detailed in this [software installation guide](#install) *before* summer orientation -- there will be a dedicated troubleshooting session, should you need help completing any of the installations. 
