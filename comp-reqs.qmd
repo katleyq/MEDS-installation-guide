@@ -39,3 +39,9 @@ If your computer breaks or dies, we can typically loan you a Windows laptop for 
 ### Home setup
 
 You may consider having a dedicated computer setup that includes an external monitor, keyboard, and / or mouse at home. A stable at-home WiFi connection is necessary for completing work remotely (i.e. off-campus). 
+
+<br>
+
+::: {.center-text .body-text-l .dark-blue-text}
+***END Computing Requirements & Recommendations***
+:::

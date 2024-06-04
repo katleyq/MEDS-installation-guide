@@ -10,7 +10,7 @@ format:
     mainfont: Nunito
     toc: true
     toc-location: left
-    toc-depth: 2
+    toc-depth: 3
     smooth-scroll: true
 ---
 
@@ -21,27 +21,34 @@ UNDER CONSTRUCTION
 ::: {.callout-important}
 ## TODO: 
 
-- check which version of R we want students to have
+- NOTE: I combined both the Mac & Windows installation guides bc the only difference was using `which git` vs `where git` when checking for git in step 4; thoughts on this?
+  - also, do we need to say anything about checking to see if Git Bash is installed?
+  - any other differences in Mac vs. Windows installations that we should be clearer about?
+- check which version of R we want students to have (i added most recent version number to step 1)
 - do we even want to suggest that incoming students can have a Linux machine?
-- update Windows 10 to 11 (or alternative)? link to windows 10 is broken below
+- update Windows 10 to 11 (or alternative)? link to windows 10 is broken below and I still need link to purchase Windows 11
 - get feedback on language around Mac recommendation
 - where do we want to move the slack resources link (step 11 in installation guide) to after website is decommissioned?
 :::
 
-## Installation Guide
+Incoming MEDS students should follow the steps detailed in this [software installation guide](#install) *before* summer orientation -- there will be a dedicated troubleshooting session, should you need help completing any of the installations. 
 
-Select your operating system below for software installation instructions:
+Please carefully read through the [computing requirements & recommendations](#comp-reqs) section before deciding on what computer to purchase / use ahead of MEDS. 
 
-::: {.panel-tabset}
-## {{< fa brands apple >}} Mac
+## Installation Guide {#install}
 
-{{< include mac.qmd >}}
+<!-- Select your operating system below for software installation instructions: -->
 
-## {{< fa brands windows >}} Windows
+<!-- ::: {.panel-tabset} -->
+<!-- ## {{< fa brands apple >}} Mac -->
 
-{{< include windows.qmd >}}
-:::
+{{< include install-guide.qmd >}}
 
-## Computing requirements & recommendations
+<!-- ## {{< fa brands windows >}} Windows -->
+
+<!-- {{< include windows.qmd >}} -->
+<!-- ::: -->
+
+## Computing requirements & recommendations {#comp-reqs}
 
 {{< include comp-reqs.qmd >}}

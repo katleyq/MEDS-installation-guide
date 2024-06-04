@@ -82,9 +82,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
+  <ul>
+  <li><a href="#install" id="toc-install" class="nav-link active" data-scroll-target="#install">Installation Guide</a>
   <ul class="collapse">
-  <li><a href="#installation-guide" id="toc-installation-guide" class="nav-link active" data-scroll-target="#installation-guide">Installation Guide</a></li>
-  <li><a href="#computing-requirements-recommendations" id="toc-computing-requirements-recommendations" class="nav-link" data-scroll-target="#computing-requirements-recommendations">Computing requirements &amp; recommendations</a></li>
+  <li><a href="#install-or-update-r" id="toc-install-or-update-r" class="nav-link" data-scroll-target="#install-or-update-r">1. Install or update R</a></li>
+  <li><a href="#install-or-update-rstudio" id="toc-install-or-update-rstudio" class="nav-link" data-scroll-target="#install-or-update-rstudio">2. Install or update RStudio</a></li>
+  <li><a href="#install-quarto-if-necessary-automatically-installed-with-rstudio" id="toc-install-quarto-if-necessary-automatically-installed-with-rstudio" class="nav-link" data-scroll-target="#install-quarto-if-necessary-automatically-installed-with-rstudio">3. Install Quarto <em>if necessary</em> (automatically installed with RStudio)</a></li>
+  <li><a href="#check-for-git" id="toc-check-for-git" class="nav-link" data-scroll-target="#check-for-git">4. Check for git</a></li>
+  <li><a href="#create-a-github-account" id="toc-create-a-github-account" class="nav-link" data-scroll-target="#create-a-github-account">5. Create a GitHub account</a></li>
+  <li><a href="#configure-git" id="toc-configure-git" class="nav-link" data-scroll-target="#configure-git">6. Configure git</a></li>
+  <li><a href="#store-your-github-personal-access-token-pat" id="toc-store-your-github-personal-access-token-pat" class="nav-link" data-scroll-target="#store-your-github-personal-access-token-pat">7. Store your GitHub personal access token (PAT)</a></li>
+  <li><a href="#install-anaconda" id="toc-install-anaconda" class="nav-link" data-scroll-target="#install-anaconda">8. Install Anaconda</a></li>
+  <li><a href="#install-cyberduck" id="toc-install-cyberduck" class="nav-link" data-scroll-target="#install-cyberduck">9. Install Cyberduck</a></li>
+  <li><a href="#install-ucsbs-pulse-secure-campus-vpn-virtual-private-network" id="toc-install-ucsbs-pulse-secure-campus-vpn-virtual-private-network" class="nav-link" data-scroll-target="#install-ucsbs-pulse-secure-campus-vpn-virtual-private-network">10. Install UCSB’s Pulse Secure Campus VPN (Virtual Private Network)</a></li>
+  <li><a href="#create-your-slack-account-and-join-meds" id="toc-create-your-slack-account-and-join-meds" class="nav-link" data-scroll-target="#create-your-slack-account-and-join-meds">11. Create your Slack account and join MEDS</a></li>
+  <li><a href="#access-google-apps-through-your-ucsb.edu-account" id="toc-access-google-apps-through-your-ucsb.edu-account" class="nav-link" data-scroll-target="#access-google-apps-through-your-ucsb.edu-account">12. Access Google apps through your <span class="citation" data-cites="ucsb.edu">@ucsb.edu</span> account</a></li>
+  </ul></li>
+  <li><a href="#comp-reqs" id="toc-comp-reqs" class="nav-link" data-scroll-target="#comp-reqs">Computing requirements &amp; recommendations</a>
+  <ul class="collapse">
+  <li><a href="#specifically-your-computer-should" id="toc-specifically-your-computer-should" class="nav-link" data-scroll-target="#specifically-your-computer-should">Specifically, your computer should:</a></li>
+  <li><a href="#if-you-are-purchasing-a-new-computer" id="toc-if-you-are-purchasing-a-new-computer" class="nav-link" data-scroll-target="#if-you-are-purchasing-a-new-computer">If you are purchasing a new computer:</a></li>
+  <li><a href="#loaner-equipment" id="toc-loaner-equipment" class="nav-link" data-scroll-target="#loaner-equipment">Loaner equipment</a></li>
+  <li><a href="#home-setup" id="toc-home-setup" class="nav-link" data-scroll-target="#home-setup">Home setup</a></li>
+  </ul></li>
   </ul>
 </nav>
 </div>
@@ -112,7 +132,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">June 3, 2024</p>
+      <p class="date-modified">June 4, 2024</p>
     </div>
   </div>
     
@@ -135,27 +155,32 @@ TODO:
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li>check which version of R we want students to have</li>
+<li>NOTE: I combined both the Mac &amp; Windows installation guides bc the only difference was using <code>which git</code> vs <code>where git</code> when checking for git in step 4; thoughts on this?
+<ul>
+<li>also, do we need to say anything about checking to see if Git Bash is installed?</li>
+<li>any other differences in Mac vs.&nbsp;Windows installations that we should be clearer about?</li>
+</ul></li>
+<li>check which version of R we want students to have (i added most recent version number to step 1)</li>
 <li>do we even want to suggest that incoming students can have a Linux machine?</li>
-<li>update Windows 10 to 11 (or alternative)? link to windows 10 is broken below</li>
+<li>update Windows 10 to 11 (or alternative)? link to windows 10 is broken below and I still need link to purchase Windows 11</li>
 <li>get feedback on language around Mac recommendation</li>
 <li>where do we want to move the slack resources link (step 11 in installation guide) to after website is decommissioned?</li>
 </ul>
 </div>
 </div>
-<section id="installation-guide" class="level2">
-<h2 class="anchored" data-anchor-id="installation-guide">Installation Guide</h2>
-<p>Select your operating system below for software installation instructions:</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href=""><i class="fa-brands fa-apple" aria-label="apple"></i> Mac</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href=""><i class="fa-brands fa-windows" aria-label="windows"></i> Windows</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<section id="install-or-update-r" class="level4">
-<h4 class="anchored" data-anchor-id="install-or-update-r">1. Install or update R</h4>
+<p>Incoming MEDS students should follow the steps detailed in this <a href="#install">software installation guide</a> <em>before</em> summer orientation – there will be a dedicated troubleshooting session, should you need help completing any of the installations.</p>
+<p>Please carefully read through the <a href="#comp-reqs">computing requirements &amp; recommendations</a> section before deciding on what computer to purchase / use ahead of MEDS.</p>
+<section id="install" class="level2">
+<h2 class="anchored" data-anchor-id="install">Installation Guide</h2>
+<!-- Select your operating system below for software installation instructions: -->
+<!-- ::: {.panel-tabset} -->
+<!-- ##  Mac -->
+<section id="install-or-update-r" class="level3">
+<h3 class="anchored" data-anchor-id="install-or-update-r">1. Install or update R</h3>
 <p>Visit <a href="https://cloud.r-project.org/">cloud.r-project.org</a> to download the most recent version of R for your operating system. You should have <em>at least</em> version <del>4.3.1 (released 2023-06-16)</del> 4.4.0 (released 2024-04-24) running when you start MEDS.</p>
 </section>
-<section id="install-or-update-rstudio" class="level4">
-<h4 class="anchored" data-anchor-id="install-or-update-rstudio">2. Install or update RStudio</h4>
+<section id="install-or-update-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="install-or-update-rstudio">2. Install or update RStudio</h3>
 <p>While R is a programming language, RStudio is a software (often referred to as an IDE, <strong>I</strong>ntegrated <strong>D</strong>evelopment <strong>E</strong>nvironment) that provides R programmers with a neat, easy-to-use interface for coding in R. There are a number of IDEs out there, but RStudio is arguably the best and definitely most popular among R programmers.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -213,24 +238,41 @@ Note: you may need to install command line tools and XQuartz.
 </div>
 </div>
 </section>
-<section id="install-quarto-if-necessary-automatically-installed-with-rstudio" class="level4">
-<h4 class="anchored" data-anchor-id="install-quarto-if-necessary-automatically-installed-with-rstudio">3. Install Quarto <em>if necessary</em> (automatically installed with RStudio)</h4>
+<section id="install-quarto-if-necessary-automatically-installed-with-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="install-quarto-if-necessary-automatically-installed-with-rstudio">3. Install Quarto <em>if necessary</em> (automatically installed with RStudio)</h3>
 <p>Quarto is a scientific publishing tool built on Pandoc that allows R, Python, Julia, and ObservableJS users to create dynamic documents, websites, books and more.</p>
 <p>Quarto is included with RStudio v2022.07.1+ <strong>so there no need for a separate download/install</strong> if you have the latest version of RStudio! You can find all releases (current, pre, and older releases) on the Quarto website <a href="https://quarto.org/docs/download/">download page</a>, should you want/need to reference them.</p>
 </section>
-<section id="check-for-git" class="level4">
-<h4 class="anchored" data-anchor-id="check-for-git">4. Check for git</h4>
+<section id="check-for-git" class="level3">
+<h3 class="anchored" data-anchor-id="check-for-git">4. Check for git</h3>
 <p>You should already have git on your device, but let’s check for it anyway.</p>
 <ul>
 <li><p>Open RStudio</p></li>
-<li><p>In the Terminal, run the following command:</p></li>
+<li><p>In the Terminal, run the following command (choose the option for your operating system):</p></li>
 </ul>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href=""><i class="fa-brands fa-apple" aria-label="apple"></i> Mac</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href=""><i class="fa-brands fa-windows" aria-label="windows"></i> Windows</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="cell">
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>RStudio Terminal</strong></pre>
 </div>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">which</span> git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="cell">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>RStudio Terminal</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">where</span> git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
 </div>
 </div>
 <ul>
@@ -250,14 +292,14 @@ Note: you may need to install command line tools and XQuartz.
 </div>
 </div>
 </section>
-<section id="create-a-github-account" class="level4">
-<h4 class="anchored" data-anchor-id="create-a-github-account">5. Create a GitHub account</h4>
+<section id="create-a-github-account" class="level3">
+<h3 class="anchored" data-anchor-id="create-a-github-account">5. Create a GitHub account</h3>
 <ul>
 <li>If you don’t already have a GitHub account, go to <a href="https://github.com" class="uri">https://github.com</a> and create one. Check out Jenny Bryan’s <a href="https://happygitwithr.com/github-acct.html">Happy Git with R, Ch. 4</a> for some helpful considerations when choosing a username. We suggest that you use a <em>personal email</em> or your <em><span class="citation" data-cites="bren.ucsb.edu">@bren.ucsb.edu</span></em> email when setting up your account (rather than your <em><span class="citation" data-cites="ucsb.edu">@ucsb.edu</span> email</em>, which will be deactivated after you graduate).</li>
 </ul>
 </section>
-<section id="configure-git" class="level4">
-<h4 class="anchored" data-anchor-id="configure-git">6. Configure git</h4>
+<section id="configure-git" class="level3">
+<h3 class="anchored" data-anchor-id="configure-git">6. Configure git</h3>
 <ul>
 <li>In RStudio, open the Terminal. Run the following commands (by pressing <strong>return</strong> after each line). Be sure to replace the username (keep the quotation marks!) with <em>your</em> GitHub username and the email with the email you used for your GitHub account.</li>
 </ul>
@@ -266,8 +308,8 @@ Note: you may need to install command line tools and XQuartz.
 <div class="code-with-filename-file">
 <pre><strong>RStudio Terminal</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"Jane Doe"</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email janedoe@example.com</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"Jane Doe"</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email janedoe@example.com</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <ul>
@@ -278,7 +320,7 @@ Note: you may need to install command line tools and XQuartz.
 <div class="code-with-filename-file">
 <pre><strong>RStudio Terminal</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--list</span> <span class="at">--global</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--list</span> <span class="at">--global</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -296,20 +338,20 @@ IMPORTANT: If you’re configuring git on a <strong>Bren server</strong> (e.g.&n
 <div class="code-with-filename-file">
 <pre><strong>RStudio Terminal</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> credential.helper <span class="st">'cache --timeout=10000000'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> credential.helper <span class="st">'cache --timeout=10000000'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <p>This prevents important credentials (e.g.&nbsp;a GitHub Personal Access Token, PAT, which you’ll set in step #7) from being removed from the server’s memory. You <strong>do not</strong> need to complete this step when configuring git on your local computer.</p>
 </div>
 </div>
 </section>
-<section id="store-your-github-personal-access-token-pat" class="level4">
-<h4 class="anchored" data-anchor-id="store-your-github-personal-access-token-pat">7. Store your GitHub personal access token (PAT)</h4>
+<section id="store-your-github-personal-access-token-pat" class="level3">
+<h3 class="anchored" data-anchor-id="store-your-github-personal-access-token-pat">7. Store your GitHub personal access token (PAT)</h3>
 <p><strong>First:</strong> What even is a personal access token? From GitHub’s documentation:</p>
 <blockquote class="blockquote">
 <p>Personal access tokens (PATs) are an alternative to using passwords for authentication to GitHub when using the <a href="https://docs.github.com/en/rest/overview/other-authentication-methods#via-oauth-and-personal-access-tokens">GitHub API</a> or the <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#using-a-token-on-the-command-line">command line</a>.</p>
 </blockquote>
-<p>This means that in order to push your work (files, scripts, etc.) from your laptop (or any other computer) to GitHub, you’ll need to first to generate a PAT. <strong>Importantly, you’ll need to generate a PAT for each computer you wish to work from.</strong> For example, we will complete the following steps to create a PAT for your personal laptop, but you’ll also need to create a PAT if/when you choose to work on any of the Bren servers. Good news is that you can follow these same steps when you’re ready to set up additional PATs on other machines. For now, let’s get a PAT for our personal laptop squared away:</p>
+<p>This means that in order to push your work (files, scripts, etc.) from your laptop (or any other computer) to GitHub, you’ll need to first to generate a PAT. <strong>Importantly, you’ll need to generate a PAT for each computer you wish to work from.</strong> For example, we will complete the following steps to create a PAT for your personal laptop, but you’ll also need to create a PAT if/when you choose to work on a second computer at home or any of the Bren servers. Good news is that you can follow these same steps when you’re ready to set up additional PATs on other machines. For now, let’s get a PAT for our personal laptop squared away:</p>
 <ul>
 <li>Once you have git configured successfully, install the <code>{usethis}</code> package in R by running the following in the RStudio Console:</li>
 </ul>
@@ -318,7 +360,7 @@ IMPORTANT: If you’re configuring git on a <strong>Bren server</strong> (e.g.&n
 <div class="code-with-filename-file">
 <pre><strong>RStudio Console</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(“usethis”)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(“usethis”)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <p>A lot of scary looking red text will show up while this is installing - don’t panic. If you get to the end and see something like below (with no error) it’s installed successfully.</p>
@@ -339,11 +381,11 @@ IMPORTANT: If you’re configuring git on a <strong>Bren server</strong> (e.g.&n
 <div class="code-with-filename-file">
 <pre><strong>RStudio Console</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">create_github_token</span>() </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">create_github_token</span>() </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <ul>
-<li>Enter your GitHub password when prompted. You’ll be taken to a screen that looks like this:</li>
+<li>Enter your GitHub password if/when prompted. You’ll be taken to a screen that looks like this:</li>
 </ul>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -376,10 +418,10 @@ IMPORTANT: If you’re configuring git on a <strong>Bren server</strong> (e.g.&n
 <div class="code-with-filename-file">
 <pre><strong>RStudio Console</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>gitcreds<span class="sc">::</span><span class="fu">gitcreds_set</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>gitcreds<span class="sc">::</span><span class="fu">gitcreds_set</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
-<p>This will prompt you to paste the PAT you just copied from GitHub. Paste the PAT, press Enter to run. You should see something like this show up if all is well so far (you’ll have pasted your PAT where mine says “REDACTED”):</p>
+<p>This will prompt you to paste the PAT you just copied from GitHub. Paste the PAT, press Enter to run. You should see something like this show up if all is well so far (you’ll have pasted your PAT where the example below says “REDACTED”):</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -397,7 +439,7 @@ IMPORTANT: If you’re configuring git on a <strong>Bren server</strong> (e.g.&n
 <div class="code-with-filename-file">
 <pre><strong>RStudio Console</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">git_sitrep</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">git_sitrep</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <p>Does it return information about your connected GitHub account that looks something like below? Great! You’ve configured git and successfully stored your PAT.</p>
@@ -424,8 +466,8 @@ IMPORTANT: If you’re configuring git on a <strong>Bren server</strong> (e.g.&n
 </div>
 </div>
 </section>
-<section id="install-anaconda" class="level4">
-<h4 class="anchored" data-anchor-id="install-anaconda">8. Install Anaconda</h4>
+<section id="install-anaconda" class="level3">
+<h3 class="anchored" data-anchor-id="install-anaconda">8. Install Anaconda</h3>
 <ul>
 <li><a href="https://repo.anaconda.com/archive/Anaconda3-2021.05-MacOSX-x86_64.pkg">Click here to download 64-bit Graphical Installer</a>. This might pop open a new tab with a “redirecting you to…” phrase, but Anaconda should be downloading at the same time. It might take a couple minutes. After it’s downloaded, click it and hit Allow if you see the following:</li>
 </ul>
@@ -440,17 +482,17 @@ IMPORTANT: If you’re configuring git on a <strong>Bren server</strong> (e.g.&n
 </div>
 <p>Follow the installation steps to complete Anaconda installation.</p>
 </section>
-<section id="install-cyberduck" class="level4">
-<h4 class="anchored" data-anchor-id="install-cyberduck">9. Install Cyberduck</h4>
+<section id="install-cyberduck" class="level3">
+<h3 class="anchored" data-anchor-id="install-cyberduck">9. Install Cyberduck</h3>
 <p>Cyberduck is a program that allows you to browse files on a remote server. Download <a href="https://cyberduck.io/">here</a>.</p>
 </section>
-<section id="install-ucsbs-pulse-secure-campus-vpn-virtual-private-network" class="level4">
-<h4 class="anchored" data-anchor-id="install-ucsbs-pulse-secure-campus-vpn-virtual-private-network">10. Install UCSB’s Pulse Secure Campus VPN (Virtual Private Network)</h4>
+<section id="install-ucsbs-pulse-secure-campus-vpn-virtual-private-network" class="level3">
+<h3 class="anchored" data-anchor-id="install-ucsbs-pulse-secure-campus-vpn-virtual-private-network">10. Install UCSB’s Pulse Secure Campus VPN (Virtual Private Network)</h3>
 <p>For secure remote access to the UCSB’s campus network when you’re not physically present on campus, you’ll need to download and install the Pulse Secure VPN client. This will allow you to access UCSB’s technology resources (including servers, journal subscriptions, etc.) anytime and from anywhere.</p>
 <p>See this <a href="https://www.ets.ucsb.edu/network-infrastructure-services/pulse-secure-campus-vpn">Bren Zendesk article</a> for directions on how to get started.</p>
 </section>
-<section id="create-your-slack-account-and-join-meds" class="level4">
-<h4 class="anchored" data-anchor-id="create-your-slack-account-and-join-meds">11. Create your Slack account and join MEDS</h4>
+<section id="create-your-slack-account-and-join-meds" class="level3">
+<h3 class="anchored" data-anchor-id="create-your-slack-account-and-join-meds">11. Create your Slack account and join MEDS</h3>
 <ul>
 <li><p>Click <a href="https://join.slack.com/t/ucsb-meds/shared_invite/zt-so8oh7xf-w41bSnbBWAiMOXKPf5j_qw">here</a> to join our UCSB-MEDS Slack Workspace</p></li>
 <li><p>Customize your profile with your name and photo (adding a photo helps instructors and TAs learn your names more quickly!).</p></li>
@@ -458,23 +500,22 @@ IMPORTANT: If you’re configuring git on a <strong>Bren server</strong> (e.g.&n
 <li><p><del>Read through the <a href="https://ucsb-meds.github.io/meds-slack.html">Slack Resource Guide</a></del></p></li>
 </ul>
 </section>
-<section id="access-google-apps-through-your-ucsb.edu-account" class="level4">
-<h4 class="anchored" data-anchor-id="access-google-apps-through-your-ucsb.edu-account">12. Access Google apps through your <span class="citation" data-cites="ucsb.edu">@ucsb.edu</span> account</h4>
+<section id="access-google-apps-through-your-ucsb.edu-account" class="level3">
+<h3 class="anchored" data-anchor-id="access-google-apps-through-your-ucsb.edu-account">12. Access Google apps through your <span class="citation" data-cites="ucsb.edu">@ucsb.edu</span> account</h3>
 <p>Once enrolled and your UCSBnetID is activated, you will have access to your <a href="https://www.connect.ucsb.edu/usage">UCSB Connect Account</a> which provides email, calendaring, and collaboration services. <em>You must use this account (UCSBnetID@ucsb.edu) to log in and access all of your Google Apps (including Google Calendar, Google Drive, etc.).</em></p>
 <p>The <a href="https://calendar.google.com/calendar/u/0/embed?src=c_1886ai526iqschc9mnpj6cu753n60@resource.calendar.google.com&amp;ctz=America/Los_Angeles"><strong>MEDS Google Calendar</strong></a> contains all classes and events relevant for our MEDS students. Feel free to add this to your calendar if you find it helpful. To do so, log in to <a href="https://www.google.com/calendar">Google Calendar</a> using your <span class="citation" data-cites="ucsb.edu">@ucsb.edu</span> credentials &gt; Click on the <code>+</code> next to “Other calendars” on the left-hand side of your screen and choose “Browse resources” &gt; Click the drop down arrow next to “bren” and check the box next to “bren-calendar-meds”</p>
+<p><br></p>
 <div class="center-text body-text-l dark-blue-text">
-<p><strong>END <i class="fa-brands fa-apple" aria-label="apple"></i> Mac Installation Guide</strong></p>
+<p><strong><em>END Installation Guide</em></strong></p>
 </div>
+<p><br></p>
+<!-- ##  Windows -->
+<!-- {{< include windows.qmd >}} -->
+<!-- ::: -->
 </section>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-
-</div>
-</div>
-</div>
 </section>
-<section id="computing-requirements-recommendations" class="level2">
-<h2 class="anchored" data-anchor-id="computing-requirements-recommendations">Computing requirements &amp; recommendations</h2>
+<section id="comp-reqs" class="level2">
+<h2 class="anchored" data-anchor-id="comp-reqs">Computing requirements &amp; recommendations</h2>
 <p>The MEDS program requires all students to have a personal laptop to use during the program. Our curriculum is designed to work across different operating systems and computers, as long as they meet some minimum requirements.</p>
 <section id="specifically-your-computer-should" class="level3">
 <h3 class="anchored" data-anchor-id="specifically-your-computer-should">Specifically, your computer should:</h3>
@@ -525,6 +566,10 @@ Be sure to install the latest operating system
 <section id="home-setup" class="level3">
 <h3 class="anchored" data-anchor-id="home-setup">Home setup</h3>
 <p>You may consider having a dedicated computer setup that includes an external monitor, keyboard, and / or mouse at home. A stable at-home WiFi connection is necessary for completing work remotely (i.e.&nbsp;off-campus).</p>
+<p><br></p>
+<div class="center-text body-text-l dark-blue-text">
+<p><strong><em>END Computing Requirements &amp; Recommendations</em></strong></p>
+</div>
 </section>
 </section>
 
