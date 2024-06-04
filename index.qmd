@@ -14,3 +14,34 @@ format:
     smooth-scroll: true
 ---
 
+::: {.center-text .body-text-l}
+UNDER CONSTRUCTION
+:::
+
+::: {.callout-important}
+## TODO: 
+
+- check which version of R we want students to have
+- do we even want to suggest that incoming students can have a Linux machine?
+- update Windows 10 to 11 (or alternative)? link to windows 10 is broken below
+- get feedback on language around Mac recommendation
+- where do we want to move the slack resources link (step 11 in installation guide) to after website is decommissioned?
+:::
+
+## Installation Guide
+
+Select your operating system below for software installation instructions:
+
+::: {.panel-tabset}
+## {{< fa brands apple >}} Mac
+
+{{< include mac.qmd >}}
+
+## {{< fa brands windows >}} Windows
+
+{{< include windows.qmd >}}
+:::
+
+## Computing requirements & recommendations
+
+{{< include comp-reqs.qmd >}}
