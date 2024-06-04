@@ -141,43 +141,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<div class="center-text body-text-l">
-<p>UNDER CONSTRUCTION</p>
-</div>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-TODO:
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>NOTE: I combined both the Mac &amp; Windows installation guides bc the only difference was using <code>which git</code> vs <code>where git</code> when checking for git in step 4; thoughts on this?
-<ul>
-<li>also, do we need to say anything about checking to see if Git Bash is installed?</li>
-<li>any other differences in Mac vs.&nbsp;Windows installations that we should be clearer about?</li>
-</ul></li>
-<li>check which version of R we want students to have (i added most recent version number to step 1)</li>
-<li>do we even want to suggest that incoming students can have a Linux machine?</li>
-<li>update Windows 10 to 11 (or alternative)? link to windows 10 is broken below and I still need link to purchase Windows 11</li>
-<li>get feedback on language around Mac recommendation (I think we’ve talked about being clearer in this guide about the program having better support for Mac users)</li>
-<li>where do we want to move the slack resources link (step 11 in installation guide) to (if anywhere) after MEDS website is decommissioned?</li>
-</ul>
-</div>
-</div>
 <p>Incoming MEDS students should follow the steps detailed in this <a href="#install">software installation guide</a> <em>before</em> summer orientation – there will be a dedicated troubleshooting session, should you need help completing any of the installations.</p>
 <p>Please carefully read through the <a href="#comp-reqs">computing requirements &amp; recommendations</a> section before deciding on what computer to purchase / use ahead of MEDS.</p>
 <section id="install" class="level2">
 <h2 class="anchored" data-anchor-id="install">Installation Guide</h2>
-<!-- Select your operating system below for software installation instructions: -->
-<!-- ::: {.panel-tabset} -->
-<!-- ##  Mac -->
 <section id="install-or-update-r" class="level3">
 <h3 class="anchored" data-anchor-id="install-or-update-r">1. Install or update R</h3>
-<p>Visit <a href="https://cloud.r-project.org/">cloud.r-project.org</a> to download the most recent version of R for your operating system. You should have <em>at least</em> version <del>4.3.1 (released 2023-06-16)</del> 4.4.0 (released 2024-04-24) running when you start MEDS.</p>
+<p>Visit <a href="https://cloud.r-project.org/">cloud.r-project.org</a> to download the most recent version of R for your operating system. You should have <em>at least</em> version 4.4.0 (released 2024-04-24) running when you start MEDS.</p>
 </section>
 <section id="install-or-update-rstudio" class="level3">
 <h3 class="anchored" data-anchor-id="install-or-update-rstudio">2. Install or update RStudio</h3>
@@ -209,8 +179,8 @@ NOTE: You need <em>both</em> R and RStudio installed
 </div>
 <ul>
 <li><p><strong>New install:</strong> To install RStudio, visit <a href="https://www.rstudio.com/products/rstudio/">rstudio.com/products/rstudio/</a>. Download the free (“Open Source Edition”) Desktop version for your operating system. You should install the most up-to-date version available that is supported by your operating system.</p></li>
-<li><p><strong>Update:</strong> If you already have RStudio and need to update: Open RStudio, and under ‘Help’ in the top menu, choose ‘Check for updates.’ If you have the most recent release, it will return ‘No update available. You are running the most recent version of RStudio.’ Otherwise, you should follow the instructions to install an updated version.</p></li>
-<li><p>Open RStudio (click on the logo shown below): <strong>If upon opening RStudio you are prompted to install Command Line Tools, do it.</strong></p></li>
+<li><p><strong>Update:</strong> If you already have RStudio and need to update, open RStudio, and under <em>Help</em> (in the top menu), choose <em>Check for updates</em>. If you have the most recent release, it will return <em>No update available. You are running the most recent version of RStudio</em>. Otherwise, you should follow the instructions to install an updated version.</p></li>
+<li><p>Open RStudio (click on the logo shown below):</p></li>
 </ul>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -227,14 +197,16 @@ NOTE: You need <em>both</em> R and RStudio installed
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note: you may need to install command line tools and XQuartz.
+Note for <em><i class="fa-brands fa-apple" aria-label="apple"></i> Mac</em> users: you may need to install command line tools and XQuartz.
 </div>
 </div>
 <div class="callout-body-container callout-body">
+<p><strong>If upon opening RStudio you are prompted to install Command Line Tools, do it.</strong></p>
 <ul>
 <li><strong>To install command line tools</strong> (if you’re not automatically prompted), run <code>xcode-select --install</code> in the RStudio Terminal</li>
 <li><strong>To install XQuartz,</strong> visit <a href="https://www.xquartz.org/">xquartz.org</a></li>
 </ul>
+<p><em>(Note for <i class="fa-brands fa-windows" aria-label="windows"></i> Windows users: Windows machines should already have command line tools installed, and XQuartz is only required for Macs).</em></p>
 </div>
 </div>
 </section>
@@ -276,7 +248,7 @@ Note: you may need to install command line tools and XQuartz.
 </div>
 </div>
 <ul>
-<li>If you get something that looks like a file path to git on your computer (e.g.&nbsp;<code>/usr/local/bin/git</code>, though it could differ slightly on your computer), then you have git installed. If you instead get no response at all, you should download &amp; install git here: <a href="https://git-scm.com/downloads">git-scm.com/downloads</a></li>
+<li>If you get something that looks like a file path to git on your computer (e.g.&nbsp;<code>/usr/local/bin/git</code> on a Mac, <code>C:\Program Files\Git\mingw64\bin\git.exe</code> on Windows, though it could differ slightly on your computer), then you have git installed. If you instead get no response at all, you should download &amp; install git here: <a href="https://git-scm.com/downloads">git-scm.com/downloads</a></li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -471,6 +443,19 @@ IMPORTANT: If you’re configuring git on a <strong>Bren server</strong> (e.g.&n
 <ul>
 <li><a href="https://repo.anaconda.com/archive/Anaconda3-2021.05-MacOSX-x86_64.pkg">Click here to download 64-bit Graphical Installer</a>. This might pop open a new tab with a “redirecting you to…” phrase, but Anaconda should be downloading at the same time. It might take a couple minutes. After it’s downloaded, click it and hit Allow if you see the following:</li>
 </ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Sam TODO
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>provide screenshot for Windows installer as well</p>
+</div>
+</div>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -497,8 +482,8 @@ IMPORTANT: If you’re configuring git on a <strong>Bren server</strong> (e.g.&n
 <li><p>Click <a href="https://join.slack.com/t/ucsb-meds/shared_invite/zt-so8oh7xf-w41bSnbBWAiMOXKPf5j_qw">here</a> to join our UCSB-MEDS Slack Workspace</p></li>
 <li><p>Customize your profile with your name and photo (adding a photo helps instructors and TAs learn your names more quickly!).</p></li>
 <li><p>Join the summer course channels (<code>#eds-212</code>, <code>#eds-221</code>, <code>#eds-214</code>, <code>#eds-217</code>)</p></li>
-<li><p><del>Read through the <a href="https://ucsb-meds.github.io/meds-slack.html">Slack Resource Guide</a></del></p></li>
 </ul>
+<!-- - ~~Read through the [Slack Resource Guide](https://ucsb-meds.github.io/meds-slack.html)~~ -->
 </section>
 <section id="access-google-apps-through-your-ucsb.edu-account" class="level3">
 <h3 class="anchored" data-anchor-id="access-google-apps-through-your-ucsb.edu-account">12. Access Google apps through your <span class="citation" data-cites="ucsb.edu">@ucsb.edu</span> account</h3>
@@ -509,9 +494,6 @@ IMPORTANT: If you’re configuring git on a <strong>Bren server</strong> (e.g.&n
 <p><strong><em>END Installation Guide</em></strong></p>
 </div>
 <p><br></p>
-<!-- ##  Windows -->
-<!-- {{< include windows.qmd >}} -->
-<!-- ::: -->
 </section>
 </section>
 <section id="comp-reqs" class="level2">
@@ -522,7 +504,7 @@ IMPORTANT: If you’re configuring git on a <strong>Bren server</strong> (e.g.&n
 <ul>
 <li>be no more than 4 years old, and in any case be fully supported by the manufacturer. For example, <a href="https://support.apple.com/en-us/HT201624">Apple won’t repair anything that’s more than 7 years old</a><br>
 </li>
-<li>be running Windows or macOS <del>or Linux (Please note that we offer limited support for Linux)</del><br>
+<li>be running Windows, macOS, or Linux (Please note that we offer limited support for Linux)<br>
 </li>
 <li>have at least 50 GB storage space available for MEDS applications and coursework<br>
 </li>
@@ -543,7 +525,7 @@ Be sure to install the latest operating system
 <p>If you already have a laptop that you plan to use in MEDS, be sure to install the latest operating system before the program begins:</p>
 <ul>
 <li><strong>Mac users:</strong> be sure to update macOS to the newest supported version, as indicated by <em>System Preferences→Software Update</em>.</li>
-<li><strong>Windows users:</strong> you should have Windows <del>10 installed but if you don’t, you can <a href="https://ucsb.onthehub.com/WebStore/OfferingDetails.aspx?o=14f7e678-4731-e511-940e-b8ca3a5db7a1">purchase Windows 10 Education for $14.99 from UCSB</a></del> 11 installed, but if you don’t, you can <a href="">purchase Windows 11 Education for $XX.XX from UCSB</a>.</li>
+<li><strong>Windows users:</strong> you should have Windows 10 installed <!-- but if you don't, you can [purchase Windows 10 Education for $14.99 from UCSB](https://ucsb.onthehub.com/WebStore/OfferingDetails.aspx?o=14f7e678-4731-e511-940e-b8ca3a5db7a1).  --></li>
 </ul>
 </div>
 </div>
@@ -556,7 +538,7 @@ Be sure to install the latest operating system
 <li>at least 512 GB of SSD (not “disk”!) storage</li>
 <li>the manucafturer’s extended warranty or service plan (e.g., <a href="https://www.apple.com/support/products/mac/">AppleCare+</a>).</li>
 </ul>
-<p><del>If you are trying to decide between Mac and Windows we would recommend a Mac, but if you purchase or already have a Windows PC, don’t worry that will be just fine as long as it meets our minimum requirements.</del> Choosing between a Mac and Windows machine (aka a PC) can be a personal and / or financial preference. If you’re having trouble deciding between the two, we recommend a Mac – these are popular and user-friendly machines, and the majority of our instructors / staff are Mac users.</p>
+<!-- ~~If you are trying to decide between Mac and Windows we would recommend a Mac, but if you purchase or already have a Windows PC, don’t worry that will be just fine as long as it meets our minimum requirements.~~ Choosing between a Mac and Windows machine (aka a PC) can be a personal and / or financial preference. If you're having trouble deciding between the two, we recommend a Mac -- these are popular and user-friendly machines, and the majority of our instructors / staff are Mac users. -->
 <p>You can <a href="https://www.apple.com/us-hed/shop">purchase a Macbook Air using the higher education discount</a> for $899 before tax and AppleCare. A PC can cost anywhere from $500 to more than $3,000; you generally get what you pay for.</p>
 </section>
 <section id="loaner-equipment" class="level3">

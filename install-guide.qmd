@@ -4,7 +4,7 @@ format: html
 
 ### 1. Install or update R
 
-Visit [cloud.r-project.org](https://cloud.r-project.org/) to download the most recent version of R for your operating system. You should have *at least* version ~~4.3.1 (released 2023-06-16)~~ 4.4.0 (released 2024-04-24) running when you start MEDS.
+Visit [cloud.r-project.org](https://cloud.r-project.org/) to download the most recent version of R for your operating system. You should have *at least* version 4.4.0 (released 2024-04-24) running when you start MEDS.
 
 ### 2. Install or update RStudio
 
@@ -27,9 +27,9 @@ Image Credit: [Exploratory Data Analysis in R](https://mgimond.github.io/ES218/)
 
 - **New install:** To install RStudio, visit [rstudio.com/products/rstudio/](https://www.rstudio.com/products/rstudio/). Download the free (“Open Source Edition”) Desktop version for your operating system. You should install the most up-to-date version available that is supported by your operating system.
 
-- **Update:** If you already have RStudio and need to update: Open RStudio, and under ‘Help’ in the top menu, choose ‘Check for updates.’ If you have the most recent release, it will return ‘No update available. You are running the most recent version of RStudio.’ Otherwise, you should follow the instructions to install an updated version.
+- **Update:** If you already have RStudio and need to update, open RStudio, and under *Help* (in the top menu), choose *Check for updates*. If you have the most recent release, it will return *No update available. You are running the most recent version of RStudio*. Otherwise, you should follow the instructions to install an updated version.
 
-- Open RStudio (click on the logo shown below): **If upon opening RStudio you are prompted to install Command Line Tools, do it.**
+- Open RStudio (click on the logo shown below): 
 
 ```{r}
 #| echo: false
@@ -39,10 +39,14 @@ knitr::include_graphics("images/rstudio-logo.png")
 ```
 
 ::: {.callout-note}
-## Note: you may need to install command line tools and XQuartz. 
+## Note for *{{< fa brands apple >}} Mac* users: you may need to install command line tools and XQuartz. 
    
+**If upon opening RStudio you are prompted to install Command Line Tools, do it.**
+
   - **To install command line tools** (if you’re not automatically prompted), run `xcode-select --install` in the RStudio Terminal
   - **To install XQuartz,** visit [xquartz.org](https://www.xquartz.org/)
+
+*(Note for {{< fa brands windows >}} Windows users: Windows machines should already have command line tools installed, and XQuartz is only required for Macs).*
 :::
 
 ### 3. Install Quarto *if necessary* (automatically installed with RStudio)
@@ -73,7 +77,7 @@ where git
 ```
 :::
 
-- If you get something that looks like a file path to git on your computer (e.g. `/usr/local/bin/git`, though it could differ slightly on your computer), then you have git installed. If you instead get no response at all, you should download & install git here: [git-scm.com/downloads](https://git-scm.com/downloads)
+- If you get something that looks like a file path to git on your computer (e.g. `/usr/local/bin/git` on a Mac, `C:\Program Files\Git\mingw64\bin\git.exe` on Windows, though it could differ slightly on your computer), then you have git installed. If you instead get no response at all, you should download & install git here: [git-scm.com/downloads](https://git-scm.com/downloads)
 
 ::: {.callout-note}
 ## **An aside:** We'll be using git *a lot* throughout MEDS. 
@@ -201,6 +205,11 @@ Setting an expiration date on personal access tokens is highly recommended in or
 
 - [Click here to download 64-bit Graphical Installer](https://repo.anaconda.com/archive/Anaconda3-2021.05-MacOSX-x86_64.pkg). This might pop open a new tab with a “redirecting you to…” phrase, but Anaconda should be downloading at the same time. It might take a couple minutes. After it’s downloaded, click it and hit Allow if you see the following:
 
+::: {.callout-important}
+## Sam TODO
+provide screenshot for Windows installer as well
+:::
+
 ```{r}
 #| echo: false
 #| fig-align: "center"
@@ -227,7 +236,7 @@ See this [Bren Zendesk article](https://www.ets.ucsb.edu/network-infrastructure-
 
 - Join the summer course channels (`#eds-212`, `#eds-221`, `#eds-214`, `#eds-217`)
 
-- ~~Read through the [Slack Resource Guide](https://ucsb-meds.github.io/meds-slack.html)~~
+<!-- - ~~Read through the [Slack Resource Guide](https://ucsb-meds.github.io/meds-slack.html)~~ -->
 
 ### 12. Access Google apps through your @ucsb.edu account
 
