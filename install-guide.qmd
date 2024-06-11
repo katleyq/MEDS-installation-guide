@@ -203,12 +203,11 @@ Setting an expiration date on personal access tokens is highly recommended in or
 
 ### 8. Install Anaconda
 
-- [Click here to download 64-bit Graphical Installer](https://repo.anaconda.com/archive/Anaconda3-2021.05-MacOSX-x86_64.pkg). This might pop open a new tab with a “redirecting you to…” phrase, but Anaconda should be downloading at the same time. It might take a couple minutes. After it’s downloaded, click it and hit Allow if you see the following:
+Anaconda is a distribution of the Python and R programming languages that aims to simplify package management and deployment. You'll need to download the Graphical Installer, which provides a graphical user interface (GUI) to facilitate writing code. Choose the option for your operating system:
 
-::: {.callout-important}
-## Sam TODO
-provide screenshot for Windows installer as well
-:::
+::: {.panel-tabset}
+## {{< fa brands apple >}} Mac
+[Click here to download 64-bit Graphical Installer for MacOS](https://repo.anaconda.com/archive/Anaconda3-2021.05-MacOSX-x86_64.pkg). This might pop open a new tab with a “redirecting you to…” phrase, but Anaconda should be downloading at the same time. It might take a couple minutes. After it’s downloaded, click it and hit Allow if you see the following:
 
 ```{r}
 #| echo: false
@@ -217,6 +216,34 @@ knitr::include_graphics("images/allow-program.png")
 ```
 
 Follow the installation steps to complete Anaconda installation.
+
+## {{< fa brands windows >}} Windows
+[Click here to download the 64-bit Graphical Installer Anaconda for Windows](https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Windows-x86_64.exe). Run the executable to install, which will look something like this:
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+```{r}
+#| echo: false
+#| fig-align: "center"
+knitr::include_graphics("images/anaconda1.png")
+```
+:::
+::: {.g-col-12 .g-col-md-4}
+```{r}
+#| echo: false
+#| fig-align: "center"
+knitr::include_graphics("images/anaconda2.png")
+```
+:::
+::: {.g-col-12 .g-col-md-4}
+```{r}
+#| echo: false
+#| fig-align: "center"
+knitr::include_graphics("images/anaconda3.png")
+```
+:::
+:::
+:::
 
 ### 9. Install Cyberduck
 
