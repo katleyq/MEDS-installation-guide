@@ -18,10 +18,10 @@ Incoming MEDS students should follow the steps detailed in this [software instal
 
 Please carefully read through the [computing requirements & recommendations](#comp-reqs) section before deciding on what computer to purchase / use ahead of MEDS. 
 
-## Installation Guide {#install}
+## {{< fa download >}} Installation Guide {#install}
 
 {{< include install-guide.qmd >}}
 
-## Computing requirements & recommendations {#comp-reqs}
+## {{< fa laptop-code >}} Computing requirements & recommendations {#comp-reqs}
 
 {{< include comp-reqs.qmd >}}
