@@ -14,7 +14,7 @@ format:
     smooth-scroll: true
 ---
 
-Incoming MEDS students should follow the steps detailed in this [software installation guide](#install) *before* summer orientation -- there will be a dedicated troubleshooting session, should you need help completing any of the installations. 
+Incoming MEDS students should follow the steps detailed in this [software installation guide](#install) *before* summer orientation -- there will be a dedicated troubleshooting session during orientation, should you need help completing any of the installations. 
 
 Please carefully read through the [computing requirements & recommendations](#comp-reqs) section before deciding on what computer to purchase / use ahead of MEDS. 
 

@@ -271,10 +271,16 @@ Once enrolled and your UCSBnetID is activated, you will have access to your [UCS
   
 The [**MEDS Google Calendar**](https://calendar.google.com/calendar/u/0/embed?src=c_1886ai526iqschc9mnpj6cu753n60@resource.calendar.google.com&ctz=America/Los_Angeles) contains all classes and events relevant for our MEDS students. Feel free to add this to your calendar if you find it helpful. To do so, log in to [Google Calendar](https://www.google.com/calendar) using your @ucsb.edu credentials > Click on the `+` next to "Other calendars" on the left-hand side of your screen and choose "Browse resources" > Click the drop down arrow next to "bren" and check the box next to "bren-calendar-meds"
 
+### 13. Request key card access to Bren / NCEAS
+
+New students must [request an Access ID Card](https://www.accessid.ucsb.edu/) (aka your UCSB photo identification), which are available for pickup at the [UCEN](https://www.ucen.ucsb.edu/) 24 hours after your request is made. We recommend submitting your request before summer orientation, so that it's ready for pickup during your first day on campus.
+
+Once you receive your Access ID Card, you must complete [this form](https://bren.formstack.com/forms/buildingsecurity) to gain key card access to Bren (after hours) and NCEAS (all hours). 
+
 <br>
 
 ::: {.center-text .body-text-l .dark-blue-text}
-***END Installation Guide***
+***~ END Installation Guide ~***
 :::
 
 <br>

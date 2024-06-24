@@ -44,5 +44,5 @@ You may consider having a dedicated computer setup that includes an external mon
 <br>
 
 ::: {.center-text .body-text-l .dark-blue-text}
-***END Computing Requirements & Recommendations***
+***~ END Computing Requirements & Recommendations ~***
 :::
