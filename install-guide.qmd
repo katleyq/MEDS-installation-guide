@@ -252,7 +252,7 @@ Visual Studio Code (aka VS Code) is a language-agnostic source-code editor -- it
 ```{r}
 #| echo: false
 #| fig-align: "center"
-#| out-width: "60%"
+#| out-width: "40%"
 knitr::include_graphics("images/vs-code.png")
 ```
 
