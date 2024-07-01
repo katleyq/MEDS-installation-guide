@@ -245,19 +245,30 @@ knitr::include_graphics("images/anaconda3.png")
 :::
 :::
 
-### 9. Install Cyberduck {#install-Cyberduck}
+### 9. Install VS Code {#install-vscode}
 
-Cyberduck is a program that allows you to browse files on a remote server. Download [here](https://cyberduck.io/).
+Visual Studio Code (aka VS Code) is a language-agnostic source-code editor -- it's works similarly to RStudio, but allows users to install extensions which add support for *lots* of different languages, debuggers, tools, etc. [Download VS Code for your operating system here](https://code.visualstudio.com/download).
 
-### 10. Install UCSB's Pulse Secure Campus VPN (Virtual Private Network) {#install-VPN}
+```{r}
+#| echo: false
+#| fig-align: "center"
+#| out-width: "60%"
+knitr::include_graphics("images/vs-code.png")
+```
+
+### 10. Install Cyberduck {#install-Cyberduck}
+
+Cyberduck is a program that allows you to browse files on a remote server. [Download here](https://cyberduck.io/).
+
+### 11. Install UCSB's Pulse Secure Campus VPN (Virtual Private Network) {#install-VPN}
 
 For secure remote access to the UCSB's campus network when you're not physically present on campus, you'll need to download and install the Pulse Secure VPN client. This will allow you to access UCSB's technology resources (including servers, journal subscriptions, etc.) anytime and from anywhere.
 
 See this [Bren Zendesk article](https://www.ets.ucsb.edu/network-infrastructure-services/pulse-secure-campus-vpn) for directions on how to get started.
 
-### 11. Create your Slack account and join MEDS {#Slack}
+### 12. Create your Slack account and join MEDS {#Slack}
 
-- Click [here](https://join.slack.com/t/ucsb-meds/shared_invite/zt-so8oh7xf-w41bSnbBWAiMOXKPf5j_qw) to join our UCSB-MEDS Slack Workspace
+- [Click here](https://join.slack.com/t/ucsb-meds/shared_invite/zt-so8oh7xf-w41bSnbBWAiMOXKPf5j_qw) to join our UCSB-MEDS Slack Workspace
 
 - Customize your profile with your name and photo (adding a photo helps instructors and TAs learn your names more quickly!).
 
@@ -265,13 +276,13 @@ See this [Bren Zendesk article](https://www.ets.ucsb.edu/network-infrastructure-
 
 <!-- - ~~Read through the [Slack Resource Guide](https://ucsb-meds.github.io/meds-slack.html)~~ -->
 
-### 12. Access Google apps through your @ucsb.edu account {#Google-apps}
+### 13. Access Google apps through your @ucsb.edu account {#Google-apps}
 
 Once enrolled and your UCSBnetID is activated, you will have access to your [UCSB Connect Account](https://www.connect.ucsb.edu/usage) which provides email, calendaring, and collaboration services. *You must use this account (UCSBnetID@ucsb.edu) to log in and access all of your Google Apps (including Google Calendar, Google Drive, etc.).*
   
 The [**MEDS Google Calendar**](https://calendar.google.com/calendar/u/0/embed?src=c_1886ai526iqschc9mnpj6cu753n60@resource.calendar.google.com&ctz=America/Los_Angeles) contains all classes and events relevant for our MEDS students. Feel free to add this to your calendar if you find it helpful. To do so, log in to [Google Calendar](https://www.google.com/calendar) using your @ucsb.edu credentials > Click on the `+` next to "Other calendars" on the left-hand side of your screen and choose "Browse resources" > Click the drop down arrow next to "bren" and check the box next to "bren-calendar-meds"
 
-### 13. Request key card access to Bren / NCEAS {#Access-IDs}
+### 14. Request key card access to Bren / NCEAS {#Access-IDs}
 
 New students must [request an Access ID Card](https://www.accessid.ucsb.edu/) (aka your UCSB photo identification), which are available for pickup at the [UCEN](https://www.ucen.ucsb.edu/) 24 hours after your request is made. We recommend submitting your request before summer orientation, so that it's ready for pickup during your first day on campus.
 
