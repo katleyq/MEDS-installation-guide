@@ -1,5 +1,12 @@
 ---
-format: html
+format: 
+  html:
+    theme: meds-website-styles.scss
+    mainfont: Nunito
+    toc: true
+    toc-location: left
+    toc-depth: 3
+    smooth-scroll: true
 ---
 
 The MEDS program requires all students to have a personal laptop to use during the program. Our curriculum is designed to work across different operating systems and computers, as long as they meet some minimum requirements.  
@@ -27,11 +34,11 @@ We recommend:
 
 - at least 16 GB of RAM 
 - at least 512 GB of SSD (not "disk"!) storage 
-- the manucafturer's extended warranty or service plan (e.g., [AppleCare+](https://www.apple.com/support/products/mac/)). 
+- the manufacturer's extended warranty or service plan (e.g., [AppleCare+](https://www.apple.com/support/products/mac/)). 
 
 <!-- ~~If you are trying to decide between Mac and Windows we would recommend a Mac, but if you purchase or already have a Windows PC, don’t worry that will be just fine as long as it meets our minimum requirements.~~ Choosing between a Mac and Windows machine (aka a PC) can be a personal and / or financial preference. If you're having trouble deciding between the two, we recommend a Mac -- these are popular and user-friendly machines, and the majority of our instructors / staff are Mac users. -->
 
-You can [purchase a Macbook Air using the higher education discount](https://www.apple.com/us-hed/shop) for \$899 before tax and AppleCare. A PC can cost anywhere from \$500 to more than $3,000; you generally get what you pay for.
+You can [purchase a Macbook Air using the higher education discount](https://www.apple.com/us-hed/shop) starting at \$899, before tax and AppleCare. A PC can cost anywhere from \$500 to more than $3,000; you generally get what you pay for.
 
 ### Loaner equipment {#loaner-equipment}
 
