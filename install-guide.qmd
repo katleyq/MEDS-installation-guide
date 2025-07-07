@@ -113,7 +113,7 @@ git config --list --global
 ```
 
 ::: {.callout-important}
-## IMPORTANT: If you're configuring git on a **Bren server** (e.g. Taylor or Tsosie), you must also run the following in the Terminal
+## IMPORTANT: If you're configuring git on a **Bren server** (e.g. workbench-1.bren.ucsb.edu or workbench-2.bren.ucsb.edu), you must also run the following in the Terminal
 
 ```{bash filename="RStudio Terminal"}
 #| eval: false
